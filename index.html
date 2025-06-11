@@ -515,9 +515,9 @@
             <div class="logo">Portfolio</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">Über mich</a></li>
-                <li><a href="#projects">Projekte</a></li>
-                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-toggle">
                 <span></span>
@@ -529,133 +529,136 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Hallo, ich bin Developer</h1>
-            <p class="hero-subtitle">Full-Stack Entwickler & UI/UX Designer</p>
+            <h1>Hello, I'm Florian</h1>
+            <p class="hero-subtitle">17yo Developer from Germany</p>
             <p class="hero-description">
-                Ich erschaffe digitale Erlebnisse durch innovative Technologien und kreatives Design. 
-                Spezialisiert auf moderne Web-Entwicklung und benutzerfreundliche Interfaces.
+                I'm 17 years old and recently started my apprenticeship in IT. I've always been fascinated by computers, servers, 3D printing, cybersecurity, and gaming. My passion for tech started when I was 13, and I enjoy creating digital solutions and exploring new technologies.
             </p>
             <div class="cta-buttons">
-                <a href="#projects" class="btn btn-primary">Meine Projekte</a>
-                <a href="#contact" class="btn btn-secondary">Kontakt aufnehmen</a>
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
             </div>
         </div>
         <div class="scroll-indicator"></div>
     </section>
 
     <section id="about" class="section">
-        <h2 class="section-title fade-in">Über mich</h2>
+        <h2 class="section-title fade-in">About Me</h2>
         <div class="about-grid">
             <div class="about-text fade-in">
-                <p>
-                    Mit über 5 Jahren Erfahrung in der Web-Entwicklung bringe ich Ideen zum Leben. 
-                    Meine Leidenschaft liegt darin, komplexe Probleme durch elegante, skalierbare Lösungen zu lösen.
-                </p>
-                <p>
-                    Ich arbeite mit modernsten Technologien und folge Best Practices, um hochperformante 
-                    Anwendungen zu entwickeln, die sowohl Benutzer als auch Geschäftsziele erfüllen.
-                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; margin-bottom: 2rem; text-align: center;">
+                    <div>
+                        <div style="font-size: 2rem; font-weight: 700; color: #3b82f6;">4+</div>
+                        <div style="color: #9ca3af;">Years of Coding</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 2rem; font-weight: 700; color: #3b82f6;">20+</div>
+                        <div style="color: #9ca3af;">Projects Worked on</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 2rem; font-weight: 700; color: #3b82f6;">8+</div>
+                        <div style="color: #9ca3af;">Technologies</div>
+                    </div>
+                </div>
             </div>
             <div class="skills-grid fade-in">
+                <div class="skill-item">HTML/CSS</div>
                 <div class="skill-item">JavaScript</div>
-                <div class="skill-item">React</div>
-                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Next.js</div>
+                <div class="skill-item">Tailwind CSS</div>
                 <div class="skill-item">Python</div>
-                <div class="skill-item">TypeScript</div>
-                <div class="skill-item">CSS/SCSS</div>
                 <div class="skill-item">MongoDB</div>
-                <div class="skill-item">Docker</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Git</div>
+                <div class="skill-item">C++</div>
+                <div class="skill-item">C#</div>
+                <div class="skill-item">UI/UX Design</div>
+                <div class="skill-item">API Integration</div>
             </div>
         </div>
     </section>
 
     <section id="projects" class="section">
-        <h2 class="section-title fade-in">Meine Projekte</h2>
+        <h2 class="section-title fade-in">My Projects</h2>
         <div class="projects-grid">
             <div class="project-card fade-in">
-                <h3 class="project-title">E-Commerce Platform</h3>
+                <h3 class="project-title">Insolution.sh</h3>
                 <p class="project-description">
-                    Eine vollständige Online-Shopping-Plattform mit modernem Design, 
-                    Zahlungsintegration und Bestandsverwaltung.
+                    Co-owner and developer of a private community CS2 external cheat featuring a custom user interface and secure backend with 100+ active users. Built with modern technologies and robust security measures. (Note: This project has been shut down)
                 </p>
                 <div class="project-tech">
-                    <span class="tech-tag">React</span>
-                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">C++</span>
+                    <span class="tech-tag">HTML/CSS/JS</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">SQLite</span>
+                </div>
+                <div class="project-links">
+                    <span style="color: #ef4444; font-weight: 500;">Shut Down</span>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3 class="project-title">SystemSweep</h3>
+                <p class="project-description">
+                    Owner & Main Developer of an open-source cleaner tool for Windows operating systems. Designed to free up disk space and enhance system performance by removing unnecessary files, clearing caches, and optimizing PC performance.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">SQLite</span>
+                    <span class="tech-tag">Windows API</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/naix1337" class="project-link">GitHub →</a>
+                    <span style="color: #10b981; font-weight: 500;">Active</span>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3 class="project-title">More Projects Coming Soon</h3>
+                <p class="project-description">
+                    I'm constantly working on new projects and experiments. Currently developing web applications with Next.js and exploring cybersecurity tools. Check back soon for updates!
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">Python</span>
                     <span class="tech-tag">MongoDB</span>
-                    <span class="tech-tag">Stripe</span>
+                    <span class="tech-tag">TailwindCSS</span>
                 </div>
                 <div class="project-links">
-                    <a href="#" class="project-link">Live Demo →</a>
-                    <a href="#" class="project-link">GitHub →</a>
-                </div>
-            </div>
-
-            <div class="project-card fade-in">
-                <h3 class="project-title">Task Management App</h3>
-                <p class="project-description">
-                    Eine intuitive Projektmanagement-Anwendung mit Echtzeit-Kollaboration, 
-                    Drag & Drop und fortgeschrittenen Filteroptionen.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">Vue.js</span>
-                    <span class="tech-tag">Firebase</span>
-                    <span class="tech-tag">Socket.io</span>
-                    <span class="tech-tag">Tailwind</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" class="project-link">Live Demo →</a>
-                    <a href="#" class="project-link">GitHub →</a>
-                </div>
-            </div>
-
-            <div class="project-card fade-in">
-                <h3 class="project-title">Portfolio Website</h3>
-                <p class="project-description">
-                    Eine responsive Portfolio-Website mit animierten Elementen, 
-                    optimiert für Performance und SEO.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">HTML5</span>
-                    <span class="tech-tag">CSS3</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">GSAP</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" class="project-link">Live Demo →</a>
-                    <a href="#" class="project-link">GitHub →</a>
+                    <span style="color: #f59e0b; font-weight: 500;">In Development</span>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="section">
-        <h2 class="section-title fade-in">Kontakt</h2>
+        <h2 class="section-title fade-in">Contact</h2>
         <div class="contact-grid">
             <div class="contact-item fade-in">
                 <div class="contact-icon">📧</div>
-                <h3>E-Mail</h3>
-                <p>developer@example.com</p>
-            </div>
-            <div class="contact-item fade-in">
-                <div class="contact-icon">🔗</div>
-                <h3>LinkedIn</h3>
-                <p>linkedin.com/in/developer</p>
+                <h3>Email</h3>
+                <p>contact@naix.sh</p>
             </div>
             <div class="contact-item fade-in">
                 <div class="contact-icon">🐙</div>
                 <h3>GitHub</h3>
-                <p>github.com/developer</p>
+                <p>github.com/naix1337</p>
             </div>
             <div class="contact-item fade-in">
-                <div class="contact-icon">📱</div>
-                <h3>Telefon</h3>
-                <p>+49 123 456 789</p>
+                <div class="contact-icon">📍</div>
+                <h3>Location</h3>
+                <p>Germany</p>
+            </div>
+            <div class="contact-item fade-in">
+                <div class="contact-icon">💼</div>
+                <h3>Status</h3>
+                <p>IT Apprentice</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Portfolio. Alle Rechte vorbehalten.</p>
+        <p>&copy; 2025 Florian. All rights reserved.</p>
     </footer>
 
     <script>
